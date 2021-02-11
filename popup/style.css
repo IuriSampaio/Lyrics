@@ -1,0 +1,45 @@
+body {
+  width: 500px;
+  background-color: #232323;
+  color: #aaa;
+  border-radius: 8px;
+  border: solid 0.5px red;
+  padding: 7px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #232323;
+}
+::-webkit-scrollbar {
+  width: 6px;
+  background: #f4f4f4;
+}
+::-webkit-scrollbar-thumb {
+  background: red;
+  border-radius: 5px;
+}
+
+#title {
+  color: red;
+}
+
+input {
+  margin: 5px;
+  text-align: center;
+  font-size: 18px;
+  border: solid 1px red;
+  border-radius: 6px;
+}
+
+button {
+  margin: 5px;
+  background-color: #232323;
+  border-radius: 6px;
+  border: solid 1px #aaa;
+  font-size: 18px;
+  color: red;
+  font-weight: bold;
+}
